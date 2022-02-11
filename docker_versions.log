@@ -1,0 +1,8 @@
+-------------------------------
+v. 20220211
+
+Docker container from gnasello/datascience-env:latest
+
+Conda environment added:
+
+- cprofiler from [https://github.com/CellProfiler/CellProfiler/wiki/Conda-Installation] 
