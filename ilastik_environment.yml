@@ -1,0 +1,13 @@
+name: ilastik
+
+channels:
+- ilastik-forge
+- conda-forge
+- defaults
+
+dependencies:
+- ilastik
+- jupyterlab
+- pip
+- pip:
+    - lckr-jupyterlab-variableinspector

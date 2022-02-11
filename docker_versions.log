@@ -1,4 +1,11 @@
 -------------------------------
+v. 20220211.b
+
+Docker container from gnasello/datascience-env:latest
+
+- Ilastik software downloaded
+
+-------------------------------
 v. 20220211
 
 Docker container from gnasello/datascience-env:latest
