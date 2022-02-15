@@ -1,7 +1,19 @@
 -------------------------------
-v. 20220211.b
+v. 20220215
 
-Docker container from gnasello/datascience-env:latest
+cprofiler environment packages
+
+- ipykernel
+
+cprofiler ipykernel added to jupyterlab
+
+-------------------------------
+v. 20220211.c
+
+- Fiji software downloaded with Ilastik and DeepCell plugins
+
+-------------------------------
+v. 20220211.b
 
 - Ilastik software downloaded
 

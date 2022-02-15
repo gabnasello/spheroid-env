@@ -1,1 +1,0 @@
-conda run -n cprofiler cellprofiler $1 
