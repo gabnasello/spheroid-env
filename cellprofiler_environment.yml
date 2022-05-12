@@ -24,4 +24,4 @@ dependencies:
 - sentry-sdk=0.18.0
 - ipykernel
 - pip:
-    - cellprofiler==4.2.0
+    - cellprofiler==4.2.1

@@ -11,6 +11,16 @@ USER root
 RUN apt-get update && \ 
     apt install -yq g++
 
+# Install Python packages
+ADD requirements.txt .
+RUN pip install -r requirements.txt
+RUN rm requirements.txt
+
+# Install R packages
+ADD install_r_packages.R .
+RUN Rscript install_r_packages.R
+RUN rm install_r_packages.R
+
 ADD cellprofiler_environment.yml .
 RUN conda env create -f cellprofiler_environment.yml  && \ 
     rm cellprofiler_environment.yml

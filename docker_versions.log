@@ -1,4 +1,18 @@
 -------------------------------
+v. 202200512
+
+Python packages installed:
+
+- imageio
+- opencv-python
+
+R packages installed:
+
+- sp
+- psych
+- raster
+
+-------------------------------
 v. 20220215
 
 cprofiler environment packages
